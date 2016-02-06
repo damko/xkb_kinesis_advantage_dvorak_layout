@@ -73,70 +73,102 @@ default xkb_geometry "model100" {
     section "LeftAlpha" {
 	top=  34;
 	left= 15;
+
+    // column characters: "= TAB CAPS Shift_L"
 	row {
 	    left= 2;
-	    key.shape= "WIDE";
+	    key.shape= "WIDE";	
 	    keys { <AE12>, <TAB>, <CAPS>, <LFSH> };
 	};
+
+    // column characters: "1 ' a ; `"
 	row {
 	    top= 4;
 	    left= 24;
-	    keys { <AE01>, <AD01>, { <AC01>, color="grey20" }, <AB01>, <TLDE> };
+	    keys { <AE01>, <AC11>, { <AC01>, color="blue100" }, <AC10>, <TLDE> };
 	};
+
+    // column characters: "2 , O Q <"
 	row {
 	    left= 43;
-	    keys { <AE02>, <AD02>, { <AC02>, color="grey20" }, <AB02>, <INS> };
+	    keys { <AE02>, <AB08>, { <AD09>, color="blue100" }, <AD01>, <LSGT> };
 	};
+
+	// column characters: "3 . e j <="
 	row {
 	    left= 62;
-	    keys { <AE03>, <AD03>, { <AC03>, color="grey20" }, <AB03>, <LEFT> };
+	    keys { <AE03>, <AB09>, { <AD03>, color="blue90" }, <AC07>, <LEFT> };
 	};
+
+	// column characters: "4 p u k =>"
 	row {
 	    left= 81;
-	    keys { <AE04>, <AD04>, { <AC04>, color="grey20" }, <AB04>, <RGHT> };
+	    keys { <AE04>, <AD10>, { <AD07>, color="blue90" }, <AC08>, <RGHT> };
 	};
+
+	// column characters: "5 y i x"
 	row {
 	    left= 100;
-	    keys { <AE05>, <AD05>, <AC05>, <AB05> };
+	    keys { <AE05>, <AD06>, <AD08>, <AB02> };
 	};
     }; // End of "LeftAlpha" section
+
+
+
+
+
+
+
+
 
     indicator "NumLock"  { left= 318; };
     indicator "Overlay"  { left= 387; };
     section "RightAlpha" {
 	top= 34;
 	left= 290;
+
+	// column characters: "6 f d b"
 	row {
 	    left= 2;
-	    keys { <AE06>, <AD06>, <AC06>, <AB06> };
+	    keys { <AE06>, <AC04>, <AC03>, <AB05> };
 	};
+
+	// column characters: "7 g h m Up"
 	row {
 	    left= 21;
-	    keys { <AE07>, <AD07>, { <AC07>, color="grey20" }, <AB07>, <UP> };
+	    keys { <AE07>, <AC05>, { <AC06>, color="blue100" }, <AB07>, <UP> };
 	};
-    	row {
+
+	// column characters: "8 c t w Down"    
+	row {
 	    left= 40;
-	    keys { <AE08>, <AD08>, { <AC08>, color="grey20" }, <AB08>, <DOWN> };
+	    keys { <AE08>, <AB03>, { <AD05>, color="blue100" }, <AD02>, <DOWN> };
 	};
+
+	// column characters: "9 r n v ["
 	row {
 	    left= 59;
-	    keys { <AE09>, <AD09>, { <AC09>, color="grey20" }, <AB09>, <AD11> };
+	    keys { <AE09>, <AD04>, { <AB06>, color="blue100" }, <AB04>, <AD11> };
 	};
+
+	// column characters: "0 l s z ]"
 	row {
 	    top= 4;
 	    left= 78;
-	    keys { <AE10>, <AD10>, { <AC10>, color="grey20" }, <AB10>, <AD12> };
+	    keys { <AE10>, <AC09>, { <AC02>, color="blue100" }, <AB01>, <AD12> };
 	};
+
+	// column characters: "- / \ Shift_R"
 	row {
 	    left= 97;
 	    key.shape= "WIDE";
-	    keys { <AE11>, <BKSL>, <AC11>, <RTSH> };
+	    keys { <AE11>, <AB10>, <BKSL>, <RTSH> };
 	};
 	overlay "KPAD" {
-	    <AE07>=<NMLK>, <AE08>=<KPEQ>, <AE09>=<KPSL>, <AE10>=<KPMU>,
-	    <AD07>=<KP7>,  <AD08>=<KP8>,  <AD09>=<KP9>,  <AD10>=<KPSU>,
-	    <AC07>=<KP4>,  <AC08>=<KP5>, <AC09>=<KP6>,  <AC10>=<KPAD>,
-	    <AB07>=<KP1>,  <AB08>=<KP2>, <AB09>=<KP3>,  <AB10>=<KPEN>,
+	    <AE08>=<KPEQ>, <AE09>=<KPSL>, <AE10>=<KPMU>,
+	    <AC05>=<KP7>,  <AB03>=<KP8>,  <AD04>=<KP9>,  <AD09>=<KPSU>,
+	    <AC06>=<KP4>,  <AD05>=<KP5>, <AB06>=<KP6>,  <BKSL>=<KPAD>,
+	    <AB07>=<KP1>,  <AD02>=<KP2>, <AD11>=<KP3>,  <BKSL>=<KPEN>,
 	    <AE10>=<KPDL>, <AE11>=<KPEN>
 	};
     }; // End of "RightAlpha" section

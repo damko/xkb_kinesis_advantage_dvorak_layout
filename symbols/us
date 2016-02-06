@@ -70,6 +70,197 @@ xkb_symbols "euro" {
 
 
 partial alphanumeric_keys
+xkb_symbols "kinesis_adv" {
+
+	name[Group1] = "Kinesis Advantage (Dvorak US)";
+
+    //first line of keys
+    key <AE12> {	[     equal,	plus		]	};
+    key <AE01> {	[	  1,	exclam 		]	};
+    key <AE02> {	[	  2,	at		]	};
+    key <AE03> {	[	  3,	numbersign	]	};
+    key <AE04> {	[	  4,	dollar		]	};
+    key <AE05> {	[	  5,	percent		]	};
+    key <AE06> {	[	  6,	asciicircum	]	};
+    key <AE07> {	[	  7,	ampersand	]	};
+    key <AE08> {	[	  8,	asterisk	]	};
+    key <AE09> {	[	  9,	parenleft	]	};
+    key <AE10> {	[	  0,	parenright	]	};
+    key <AE11> {	[     minus,	underscore	]	};
+
+	//second line of keys
+	key <AC11> {	[	apostrophe,	quotedbl ]	}; // ' " 
+	key <AB08> {	[	comma,	less ]	}; // ,	< 
+	key <AB09> {	[	period,greater ]	}; // . > 
+	key <AD10> {	[	p,	P ]	}; // p P 
+	key <AD06> {	[	y,	Y ]	}; // y Y 
+	key <AC04> {	[	f,	F ]	}; // f F 
+	key <AC05> {	[	g,	G ]	}; // g G 
+	key <AB03> {	[	c,	C ]	}; // c C 
+	key <AD04> {	[	r,	R ]	}; // r R 
+	key <AC09> {	[	l,	L ]	}; // l L 
+	key <AB10> {	[	slash,	question ]	}; // / ?
+
+	//third line of keys
+	key <AC01> {	[	a,	A ]	}; // a A 
+	key <AD09> {	[	o,	O ]	}; // o O 
+	key <AD03> {	[	e,	E ]	}; // e E 
+	key <AD07> {	[	u,	U ]	}; // u U 
+	key <AD08> {	[	i,	I ]	}; // i I 
+	key <AC03> {	[	d,	D ]	}; // d D 
+	key <AC06> {	[	h,	H ]	}; // h H 
+	key <AD05> {	[	t,	T ]	}; // t T 
+	key <AB06> {	[	n,	N ]	}; // n N 
+	key <AC02> {	[	s,	S ]	}; // s S 
+    key <BKSL> {	[ backslash,         bar	]	};
+
+	//fourth line of keys
+    key <LFSH> {	[  shift_l ] };
+    key <AC10> {	[ semicolon,	colon		]	}; // ; :
+	key <AD01> {	[	q,	Q ]	}; // q Q 
+	key <AC07> {	[	j,	J ]	}; // j J 
+	key <AC08> {	[	k,	K ]	}; // k K 
+	key <AB02> {	[	x,	X ]	}; // x X 
+	key <AB05> {	[	b,	B ]	}; // b B 
+	key <AB07> {	[	m,	M ]	}; // m M 
+	key <AD02> {	[	w,	W ]	}; // w W 
+	key <AB04> {	[	v,	V ]	}; // v V 
+	key <AB01> {	[	z,	Z ]	}; // z Z 
+    key <RTSH> {	[  shift_r ] };
+
+	//fifth line of keys
+    key <TLDE> {	[	grave,	asciitilde	]	};
+	key <LSGT> {	[	less,	greater ] };
+	//LEFT
+	//RIGHT
+	//UP
+	//DOWN
+    key <AD11> {	[ bracketleft,	braceleft	]	};
+    key <AD12> {	[ bracketright,	braceright	]	};
+
+	//THUMB KEYS - NO NEED TO LIST
+	//block on the left
+	//CTRL_L
+	//ALT_L
+	//BACKSPACE
+	//DELETE
+	//HOME
+	//END
+
+	//block on the right
+	//SUPER_R
+	//CTRL_R
+	//PAGE UP
+	//ENTER
+	//SPACE
+	//PAGE DOWN
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "kinesis_adv_it" {
+
+	name[Group1] = "Kinesis Advantage (Dvorak US with italian deadkeys)";
+
+	// Sugli accenti in italiano: 
+    // nel caso in cui la vocale finale sia "a, o, i, u" l’accento è per convenzione sempre grave, anche se la pronuncia non è né aperta, né chiusa => quindi faccio l'alter di queste vocali in grave
+
+    //first line of keys
+    key <AE12> {	[     equal,	plus		]	};
+    key <AE01> {	[	  1,	exclam,	onehalf,	exclamdown 		]	};
+    key <AE02> {	[	  2,	at		]	};
+    key <AE03> {	[	  3,	numbersign	]	};
+    key <AE04> {	[	  4,	dollar,	cent		]	};
+    key <AE05> {	[	  5,	percent,	EuroSign,	sterling		]	};
+    key <AE06> {	[	  6,	asciicircum, degree,	trademark	]	};
+    key <AE07> {	[	  7,	ampersand,	copyright,	registered	]	};
+    key <AE08> {	[	  8,	asterisk	]	};
+    key <AE09> {	[	  9,	parenleft	]	};
+    key <AE10> {	[	  0,	parenright	]	};
+    key <AE11> {	[     minus,	underscore	]	};
+
+
+	//second line of keys
+	key <AC11> {	[	apostrophe,	quotedbl ]	}; // ' " 
+	key <AB08> {	[	comma,	less,	guillemotleft ]	}; // ,	< 
+	key <AB09> {	[	period,	greater,	guillemotright ]	}; // . > 
+	key <AD10> {	[	p,	P ]	}; // p P 
+	key <AD06> {	[	y,	Y ]	}; // y Y 
+	key <AC04> {	[	f,	F ]	}; // f F 
+	key <AC05> {	[	g,	G ]	}; // g G 
+	key <AB03> {	[	c,	C ]	}; // c C 
+	key <AD04> {	[	r,	R ]	}; // r R 
+	key <AC09> {	[	l,	L ]	}; // l L 
+	key <AB10> {	[	slash,	question,	questiondown ]	}; // / ?
+
+	//third line of keys
+	key <AC01> {	[	a,	A,	agrave,	Agrave	]	}; // a A 
+	key <AD09> {	[	o,	O,	ograve,	Ograve	]	}; // o O 
+	key <AD03> {	[	e,	E,	egrave, Egrave	]	}; // e E 
+	key <AD07> {	[	u,	U,	ugrave,	Ugrave	]	}; // u U 
+	key <AD08> {	[	i,	I,	igrave,	Igrave	]	}; // i I 
+	key <AC03> {	[	d,	D ]	}; // d D 
+	key <AC06> {	[	h,	H ]	}; // h H 
+	key <AD05> {	[	t,	T ]	}; // t T 
+	key <AB06> {	[	n,	N ]	}; // n N
+	key <AC02> {	[	s,	S ]	}; // s S 
+    key <BKSL> {	[ backslash,         bar	]	};
+
+
+	//fourth line of keys
+    key <LFSH> {	[  shift_l ] };
+    key <AC10> {	[ semicolon,	colon,	aacute, Aacute		]	}; // ; :
+	key <AD01> {	[	q,	Q,	oacute,	Oacute	]	}; // q Q 
+	key <AC07> {	[	j,	J,	eacute,	Eacute	]	}; // j J 
+	key <AC08> {	[	k,	K,	uacute, Uacute	]	}; // k K 
+	key <AB02> {	[	x,	X,	iacute,	Iacute	]	}; // x X 
+	key <AB05> {	[	b,	B ]	}; // b B 
+	key <AB07> {	[	m,	M ]	}; // m M 
+	key <AD02> {	[	w,	W ]	}; // w W 
+	key <AB04> {	[	v,	V ]	}; // v V 
+	key <AB01> {	[	z,	Z ]	}; // z Z 
+    key <RTSH> {	[  shift_r ] };
+
+	//fifth line of keys
+    key <TLDE> {	[	grave,	asciitilde	]	};
+	key <LSGT> {	[	less,	greater ] };
+	//LEFT
+	//RIGHT
+	//UP
+	//DOWN
+    key <AD11> {	[ bracketleft,	braceleft	]	};
+    key <AD12> {	[ bracketright,	braceright	]	};
+
+	//THUMB KEYS - NO NEED TO LIST
+	//block on the left
+	//CTRL_L
+	//ALT_L
+	//BACKSPACE
+	//DELETE
+	//HOME
+	//END
+
+	//block on the right
+	//SUPER_R
+	//CTRL_R
+	//PAGE UP
+	//ENTER
+	//SPACE
+	//PAGE DOWN
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "kinesis_adv_it_dam" {
+
+	name[Group1] = "Kinesis Advantage (Dvorak US Dam)";
+
+    include "us(kinesis_adv_it)"
+
+
+};
+
+partial alphanumeric_keys
 xkb_symbols "intl" {
 
     name[Group1]= "English (US, international with dead keys)";
@@ -1517,7 +1708,6 @@ xkb_symbols "crd" {
   include "level3(ralt_switch)"
   include "compose(rctrl)"
 };
-
 
 partial alphanumeric_keys
 	xkb_symbols "sun_type6" {

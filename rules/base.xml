@@ -1447,6 +1447,24 @@
             <description>English (Workman, international with dead keys)</description>
            </configItem>
          </variant>
+        <variant>
+          <configItem>
+            <name>kinesis_adv</name>
+            <description>Kinesis Advantage (Dvorak US)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>kinesis_adv_it</name>
+            <description>Kinesis Advantage (Dvorak US with italian deadkeys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>kinesis_adv_it_dam</name>
+            <description>Kinesis Advantage (Dvorak US Dam)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3555,7 +3573,7 @@
             <name>us</name>
             <description>Italian (US keyboard with Italian letters)</description>
           </configItem>
-        </variant>
+        </variant>    
         <variant>
           <configItem>
             <name>geo</name>
