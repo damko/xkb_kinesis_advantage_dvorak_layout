@@ -10,7 +10,7 @@ and this is the Dvorak US layout with Italian variant:
 
 ![Kinesis Advantage Dvorak US layout Italian variant](http://drive.google.com/uc?id=0B8TPut6hfwH0WUNxZkxnV3ptVFE)
 
-Even if everythin is this repository in meant for Kinesis Advantage, I'm sure that you can learn from here everything you need to build, remap and customize your own keyboard layout for Linux.
+Even if everything in this repository is meant for Kinesis Advantage, I'm sure that you can learn from here everything you need to build, remap and customize your own keyboard layout for Linux.
 
 ## Install
 
@@ -33,9 +33,13 @@ These commands will apply the changes:
 
 You will end up with a standard American Dvorak layout with all the additional vowels with diacritics required for the Italian language.
 
+## About vowels with diacritics
+
 To type **à** hold the SUPER_R (the key with the windows flag on the right thumb-block of your Kinesis) and hit _a_
 
 To type **À** hold the SUPER_R + SHIFT (any) and hit _a_
+
+Of course the same goes for each key having more hosting more than 2 characters (3rd level characters) like 1, 4, 5 etc.
 
 ## Multiple layouts
 
