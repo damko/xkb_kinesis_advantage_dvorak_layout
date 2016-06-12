@@ -34,7 +34,7 @@ default xkb_keycodes "evdev" {
 	<AD09> = 32; //{o O}
 	<AD10> = 33; //{p P}
 	<AD11> = 34;
-	<AD12> = 35; 
+	<AD12> = 35;
 	<BKSL> = 51; //{\ |}
 	alias <AC12> = <BKSL>;
 	<RTRN> = 36;

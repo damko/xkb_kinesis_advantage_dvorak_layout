@@ -301,9 +301,9 @@
   hbs             us: Serbo-Croatian (US)
   workman         us: English (Workman)
   workman-intl    us: English (Workman, international with dead keys)
-  kinesis_adv     us: Kinesis Advantage (Dvorak US)
-  kinesis_adv_it  us: Kinesis Advantage (Dvorak US with italian deadkeys)
-  kinesis_adv_it_dam  us: Kinesis Advantage (Dvorak US Dam)
+  kinesis_dvorak_adv         us: Kinesis Advantage (Dvorak US)
+  kinesis_dvorak_adv_it      us: Kinesis Advantage (Dvorak US with italian deadkeys)
+  kinesis_dvorak_adv_it_dam  us: Kinesis Advantage (Dvorak US Dam)
   ps              af: Pashto
   uz              af: Uzbek (Afghanistan)
   olpc-ps         af: Pashto (Afghanistan, OLPC)
