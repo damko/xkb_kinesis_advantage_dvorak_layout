@@ -149,12 +149,12 @@ xkb_symbols "kinesis_adv_dvorak" {
 	// END
 
 	// thumb-block on the right
-	// SUPER_R
+	// SUPER_R or ISO_Level3_Shift
 	// CTRL_R
-	// PAGE UP
-	// ENTER
+	// PAGE UP or PRIOR
+	// ENTER or RETURN
 	// SPACE
-	// PAGE DOWN
+	// PAGE DOWN or NEXT
 
 };
 
@@ -193,7 +193,7 @@ xkb_symbols "kinesis_adv_dvorak_it" {
 	key <AB03> { [ c, C ] };		// c C
 	key <AD04> { [ r, R ] };		// r R
 	key <AC09> { [ l, L ] };		// l L
-	key <AB10> { [ slash, question, questiondown ] };	// / ?
+	key <AB10> { [ slash, question, questiondown ] };	// / ? ¿
 
 	// third row of keys
 	key <AC01> { [ a, A, agrave, Agrave ] };		// a A à À
@@ -244,12 +244,12 @@ xkb_symbols "kinesis_adv_dvorak_it" {
 	// END
 
 	// thumb-block on the right
-	// SUPER_R
+	// SUPER_R or ISO_Level3_Shift
 	// CTRL_R
-	// PAGE UP
-	// ENTER
+	// PAGE UP or PRIOR
+	// ENTER or RETURN
 	// SPACE
-	// PAGE DOWN
+	// PAGE DOWN or NEXT
 
 };
 
