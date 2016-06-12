@@ -1,4 +1,4 @@
-#Italian layout variant based on US Dvorak layout for Kinesis Advantage
+# Italian layout variant based on US Dvorak layout for Kinesis Advantage
 
 This repository provides a _US variant_ layout for XKB that supports Italians deadkeys (i.e. vowels with diacritics) especially meant for [http://www.kinesis-ergo.com/shop/advantage-for-pc-mac/](Kinesis Advantage keyboard).
 
@@ -12,7 +12,7 @@ and this is the Dvorak US layout with Italian variant:
 
 Even if everythin is this repository in meant for Kinesis Advantage, I'm sure that you can learn from here everything you need to build, remap and customize your own keyboard layout for Linux.
 
-#Install
+## Install
 
 Be aware that this repository has two branches:
 
@@ -37,6 +37,8 @@ To type **à** hold the SUPER_R (the key with the windows flag on the right thum
 
 To type **À** hold the SUPER_R + SHIFT (any) and hit _a_
 
+## Multiple layouts
+
 If you want to load an additional layout, let's say the Russian one providing Cyrillic, run these commands
 
     setxkbmap -model kinesis -layout us,us -variant kinesis_adv_dvorak_it,rus -option
@@ -49,13 +51,15 @@ If you want to load the US layout and the Italian variant run these commands:
     setxkbmap -model kinesis -layout us,us -variant ,kinesis_adv_dvorak_it -option
     setxkbmap -model kinesis -layout us,us -variant ,kinesis_adv_dvorak_it -option "lv3:rwin_switch,grp:alt_space_toggle"
 
+## Test and run
+
 Run
 
     setxkbmap -print -verbose 10
 
 to check that all the parameters where loaded correctly by XKB.
 
-You should see this:
+You should see something like this (depending on what you have set in the `setxkbmap` command):
 
     Setting verbose level to 10
     locale is C
