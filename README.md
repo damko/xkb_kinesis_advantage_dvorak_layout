@@ -21,7 +21,7 @@ Be aware that this repository has two branches:
 
 **hack** is the branch you might be interested in and contains the modified files. **master** contains the original files, you know, in case of need and for comparison.
 
-    git clone XXX
+    git clone git@github.com:damko/xkb_kinesis_advantage_dvorak_layout.git
     cd xkb_kinesis_advantage_dvorak_layout
     git checkout hack
     sudo cp -fR * /usr/share/X11/xkb/
