@@ -8,7 +8,7 @@ This is the original Dvorak US layout:
 
 and this is the Dvorak US layout with Italian variant:
 
-![Kinesis Advantage Dvorak US layout Italian variant](http://drive.google.com/uc?id=0B8TPut6hfwH0UWYyUS1iUEF3QW8)
+![Kinesis Advantage Dvorak US layout Italian variant](http://drive.google.com/uc?id=0B8TPut6hfwH0WUNxZkxnV3ptVFE)
 
 Even if everythin is this repository in meant for Kinesis Advantage, I'm sure that you can learn from here everything you need to build, remap and customize your own keyboard layout for Linux.
 
