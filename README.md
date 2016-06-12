@@ -2,13 +2,13 @@
 
 This repository provides a _US variant_ layout for XKB that supports Italians deadkeys (i.e. vowels with diacritics) especially meant for [http://www.kinesis-ergo.com/shop/advantage-for-pc-mac/](Kinesis Advantage keyboard).
 
-This is the original Dvorak US layout
+This is the original Dvorak US layout:
 
 ![Kinesis Advantage Dvorak US layout](http://drive.google.com/uc?id=0B8TPut6hfwH0ei1GS3ZkSGxpSVk)
 
-and this is the Dvorak US layout with Italian variant
+and this is the Dvorak US layout with Italian variant:
 
-![Kinesis Advantage Dvorak US layout Italian variant](http://drive.google.com/uc?id=0B8TPut6hfwH0NUNCR3FHQ0d0aFk)
+![Kinesis Advantage Dvorak US layout Italian variant](http://drive.google.com/uc?id=0B8TPut6hfwH0UWYyUS1iUEF3QW8)
 
 Even if everythin is this repository in meant for Kinesis Advantage, I'm sure that you can learn from here everything you need to build, remap and customize your own keyboard layout for Linux.
 
@@ -33,9 +33,9 @@ These commands will apply the changes:
 
 You will end up with a standard American Dvorak layout with all the additional vowels with diacritics required for the Italian language.
 
-To type _à_ hold the SUPER_R (the key with the windows flag on the right thumb-block of your Kinesis) and hit _a_
+To type **à** hold the SUPER_R (the key with the windows flag on the right thumb-block of your Kinesis) and hit _a_
 
-To type _À_ hold the SUPER_R (the key with the windows flag on the right thumb-block of your Kinesis) + SHIFT (any) and hit _a_
+To type **À** hold the SUPER_R + SHIFT (any) and hit _a_
 
 If you want to load an additional layout, let's say the Russian one providing Cyrillic, run these commands
 
@@ -53,7 +53,9 @@ Run
 
     setxkbmap -print -verbose 10
 
-to check that all the parameters where loaded correctly by XKB. You should see this:
+to check that all the parameters where loaded correctly by XKB.
+
+You should see this:
 
     Setting verbose level to 10
     locale is C
