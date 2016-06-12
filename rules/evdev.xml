@@ -1307,7 +1307,6 @@
     <layout>
       <configItem>
         <name>us</name>
-
         <shortDescription>en</shortDescription>
         <description>English (US)</description>
         <languageList>
