@@ -4,11 +4,11 @@ This repository provides a _US variant_ layout for XKB that supports Italians de
 
 This is the original Dvorak US layout
 
-![http://drive.google.com/uc?id=0B8TPut6hfwH0ei1GS3ZkSGxpSVk][Kinesis Advantage Dvorak US layout]
+![Kinesis Advantage Dvorak US layout](http://drive.google.com/uc?id=0B8TPut6hfwH0ei1GS3ZkSGxpSVk)
 
 and this is the Dvorak US layout with Italian variant
 
-![http://drive.google.com/uc?id=0B8TPut6hfwH0NUNCR3FHQ0d0aFk][Kinesis Advantage Dvorak US layout Italian variant]
+![Kinesis Advantage Dvorak US layout Italian variant](http://drive.google.com/uc?id=0B8TPut6hfwH0NUNCR3FHQ0d0aFk)
 
 Even if everythin is this repository in meant for Kinesis Advantage, I'm sure that you can learn from here everything you need to build, remap and customize your own keyboard layout for Linux.
 
