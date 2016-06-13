@@ -21,7 +21,7 @@ Be aware that this repository has two branches:
 * master
 * hack
 
-**hack** is the branch you might be interested in and contains the modified files. **master** contains the original files, you know, in case of need and for comparison.
+**hack** is the branch you might be interested in and contains the modified files. **master** contains the original files, you know, in case of need and for [https://github.com/damko/xkb_kinesis_advantage_dvorak_layout/compare](comparison).
 
     git clone git@github.com:damko/xkb_kinesis_advantage_dvorak_layout.git
     cd xkb_kinesis_advantage_dvorak_layout
