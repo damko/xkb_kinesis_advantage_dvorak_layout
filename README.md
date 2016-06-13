@@ -12,6 +12,8 @@ and this is the Dvorak US layout with Italian variant:
 
 Even if everything in this repository is meant for Kinesis Advantage, I'm sure that you can learn from here everything you need to build, remap and customize your own keyboard layout for Linux.
 
+If you need some help to understand better how all the parts are working, please have a look at [https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450#.gnyfmp6y4](my guide on Medium.com)
+
 ## Install
 
 Be aware that this repository has two branches:
