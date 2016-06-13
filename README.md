@@ -1,6 +1,6 @@
 # Italian layout variant based on US Dvorak layout for Kinesis Advantage
 
-This repository provides a _US variant_ layout for XKB that supports Italians deadkeys (i.e. vowels with diacritics) especially meant for [http://www.kinesis-ergo.com/shop/advantage-for-pc-mac/](Kinesis Advantage keyboard).
+This repository provides a _US variant_ layout for XKB that supports Italians deadkeys (i.e. vowels with diacritics) especially meant for [Kinesis Advantage keyboard](http://www.kinesis-ergo.com/shop/advantage-for-pc-mac/).
 
 This is the original Dvorak US layout:
 
@@ -12,7 +12,7 @@ and this is the Dvorak US layout with Italian variant:
 
 Even if everything in this repository is meant for Kinesis Advantage, I'm sure that you can learn from here everything you need to build, remap and customize your own keyboard layout for Linux.
 
-If you need some help to understand better how all the parts are working, please have a look at [https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450#.gnyfmp6y4](my guide on Medium.com)
+If you need some help to understand better how all the parts are working, please have a look at [my guide on Medium.com](https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450#.gnyfmp6y4)
 
 ## Install
 
@@ -21,7 +21,7 @@ Be aware that this repository has two branches:
 * master
 * hack
 
-**hack** is the branch you might be interested in and contains the modified files. **master** contains the original files, you know, in case of need and for [https://github.com/damko/xkb_kinesis_advantage_dvorak_layout/compare](comparison).
+**hack** is the branch you might be interested in and contains the modified files. **master** contains the original files, you know, in case of need and for [comparison](https://github.com/damko/xkb_kinesis_advantage_dvorak_layout/compare).
 
     git clone git@github.com:damko/xkb_kinesis_advantage_dvorak_layout.git
     cd xkb_kinesis_advantage_dvorak_layout
