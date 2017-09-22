@@ -40,6 +40,8 @@ If you have already modified your `/usr/share/X11/xkb` and you don't trust it an
     rm -fR xkb
     tar zxf {path}/xkb-original.tgz
 
+### Now you can install
+
 Be aware that this repository has two branches:
 
 * master
