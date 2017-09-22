@@ -16,6 +16,30 @@ If you need some help to understand better how all the parts are working, please
 
 ## Install
 
+### Before installing this repo
+
+Run a backup of your current `/usr/share/X11/xkb` configuration directory
+
+    su -
+    cd /usr/share/X11/
+    tar zcf previous-xkb.tgz xkb
+
+So that you can roll back any time with this command:
+
+    su -
+    cd /usr/share/X11/
+    rm -fR xkb
+    tar zxf previous-xkb.tgz
+
+### In case of troubles
+
+If you have already modified your `/usr/share/X11/xkb` and you don't trust it anymore you can replace it with the .tgz file that you can see in this repo which comes with Debian testing (@ September 2017):
+
+    su -
+    cd /usr/share/X11/
+    rm -fR xkb
+    tar zxf {path}/xkb-original.tgz
+
 Be aware that this repository has two branches:
 
 * master
