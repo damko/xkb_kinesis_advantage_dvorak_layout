@@ -33,7 +33,7 @@ So that you can roll back any time with this command:
 
 ### In case of troubles
 
-If you have already modified your `/usr/share/X11/xkb` and you don't trust it anymore you can replace it with the .tgz file that you can see in this repo which comes with Debian testing (@ September 2017):
+If you have already modified your `/usr/share/X11/xkb` and you don't trust it anymore and you have lost your `previous-xkb.tgz` you can try to replace the xkb configuration directory with the xkb-original.tgz file that you can see in this repo (taken from a Debian testing - September 2017:
 
     su -
     cd /usr/share/X11/
