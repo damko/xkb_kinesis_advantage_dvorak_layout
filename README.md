@@ -92,3 +92,7 @@ Test your layout by typing some text and, if everything is working as expected, 
     XKBOPTIONS="lv3:rwin_switch,grp:alt_space_toggle"
 
 Reboot your machine, run again `setxkbmap -print -verbose 10` and test again by typing some text. Everything should work as expected.
+
+## Similar projects
+
+* SmartLayer's [math layout](https://github.com/SmartLayer/MathLingua-Layout) for XKB 
